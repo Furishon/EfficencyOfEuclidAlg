@@ -1,9 +1,11 @@
-from euclidAlg import findGCD
 from matplotlib import pyplot as plt
 import numpy as np
 import seaborn as sns
+import sys
 
-bnd = 5000
+from euclidAlg import findGCD
+
+bnd = int(sys.argv[1])
 
 val = np.empty((bnd, bnd), dtype='uint8')
 for index, gcd in np.ndenumerate(val):

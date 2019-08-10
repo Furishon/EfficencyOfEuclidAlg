@@ -21,10 +21,15 @@ It turns out that r<sub>n</sub> = gcd(a, b).
   
   
 ## Evaluating efficency
-This package evaluates the efficency by plotting the number of iterations required by the algorithm (the value of n+1) as a function of both a & b in a 3D-plot. The range of a & b is between 0 and a user-defined value.
+This package evaluates the efficency by plotting the number of iterations required by the algorithm (the value of n+1) as a function of both a & b as a heatmap. The range of a & b is between 0 and a user-defined value.
+
+An example heatmap for 0 <= a, b <= 5000 can be seen in heatmap.png. 
 
 
+## Usage
+To evaluate all pairs (a, b) for 0 <= a, b <= n, call `python3 plot.py n`.
 
+##Author
 Erik Göransson, Sweden
 
 August 2019
