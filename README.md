@@ -29,7 +29,7 @@ An example heatmap for 0 <= a, b <= 5000 can be seen in heatmap.png.
 ## Usage
 To evaluate all pairs (a, b) for 0 <= a, b <= n, call `python3 plot.py n`.
 
-##Author
+## Author
 Erik Göransson, Sweden
 
 August 2019
